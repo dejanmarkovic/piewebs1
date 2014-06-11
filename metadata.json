@@ -1,0 +1,149 @@
+{
+    "name": "piewebs1",
+    "thumbnail": "piewebs1.png",
+    "screenshot": "piewebs1.png",
+    "pageTypes": [
+        "home",
+        "company"
+    ],
+    "tags": {
+        "en": [
+
+        ]
+    },
+    "colorSwatches": {
+        "Swatch 1": {
+            "color1": "#ffffff",
+            "color2": "#000000",
+            "color3": "#ffffff",
+            "color4": "#ffffff",
+            "color5": "#000000",
+            "color6": "#ffffff",
+            "color7": "#000000"
+        },
+        "Swatch 2": {
+            "color1": "#ffffff",
+            "color2": "#000000",
+            "color3": "#ffffff",
+            "color4": "#ffffff",
+            "color5": "#000000",
+            "color6": "#ffffff",
+            "color7": "#000000"
+        },
+        "Swatch 3": {
+            "color1": "#ffffff",
+            "color2": "#000000",
+            "color3": "#ffffff",
+            "color4": "#ffffff",
+            "color5": "#000000",
+            "color6": "#ffffff",
+            "color7": "#000000"
+        },
+        "Swatch 4": {
+            "color1": "#ffffff",
+            "color2": "#000000",
+            "color3": "#ffffff",
+            "color4": "#ffffff",
+            "color5": "#000000",
+            "color6": "#ffffff",
+            "color7": "#000000"
+        },
+        "Swatch 5": {
+            "color1": "#ffffff",
+            "color2": "#000000",
+            "color3": "#ffffff",
+            "color4": "#ffffff",
+            "color5": "#000000",
+            "color6": "#ffffff",
+            "color7": "#000000"
+        }
+    },
+    "fontSwatch": {
+        "title": "Arial",
+        "font1": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "30px",
+            "font-weight": "500",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "18px",
+            "font-weight": "inherit",
+            "line-height": "28px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "16px",
+            "font-weight": "inherit",
+            "line-height": "26px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "14px",
+            "font-weight": "500",
+            "line-height": "28px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "13px",
+            "font-weight": "600",
+            "line-height": "28px",
+            "color": "@color-swatch6",
+            "color-hover": "lighten(@color-swatch6,20%)",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "@color-swatch3"
+        },
+        "font7": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "16px",
+            "font-weight": "inherit",
+            "line-height": "26px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "@color-swatch2"
+        },
+        "font8": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "40px",
+            "font-weight": "500",
+            "line-height": "50px",
+            "color": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "24px",
+            "font-weight": "500",
+            "line-height": "36px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "Arial, sans-serif",
+            "font-size": "26px",
+            "font-weight": "500",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        }
+    }
+}
