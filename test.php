@@ -6,8 +6,17 @@
  * Time: 2:52 PM
  */
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+
+    </style>
+</head>
+<body>
 <p><strong>Have any questions or comments?</strong><br>Please feel free to send us an email through this form:</p>
-<form role="form" id="contact" name="contact" id="contact" method="post" action="http://pmtdev.pie247.com/pie_webs/contact_form/">
+<form role="form" id="contact" name="contact" method="post">
     <div class="form-group">
         <label for="cfname" class="color-pie-orange">First Name</label>
         <input type="text" class="form-control" id="cfname" name="cfname" placeholder="Your name...">
@@ -27,4 +36,11 @@
     <input type="hidden" name="from" value="{{profile.email}}">
     <button type="submit" id="submit2" class="btn btn-success">Send Email</button>
 </form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/global.js"></script>
+
+</body>
+</html>
 
