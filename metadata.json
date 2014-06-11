@@ -1,7 +1,7 @@
 {
-    "name": "piewebs1",
-    "thumbnail": "piewebs1.png",
-    "screenshot": "piewebs1.png",
+    "name": "piewebs",
+    "thumbnail": "piewebs.png",
+    "screenshot": "piewebs.png",
     "pageTypes": [
         "home",
         "company"
