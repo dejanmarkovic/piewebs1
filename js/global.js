@@ -98,10 +98,12 @@ function makeCall()
             dataType: 'jsonp',
             cache: false
         }).done(function(result) {
-            $('#myModal').modal('hide');
+            $('.modal.in').modal('hide');
+            //$('#myModal').modal('hide');
             alert("Done");
         }).fail(function() {
-            $('#myModal').modal('hide');
+            //$('#myModal').modal('hide');
+            $('.modal.in').modal('hide');
             alert("Done");
         });
     })//closing click
