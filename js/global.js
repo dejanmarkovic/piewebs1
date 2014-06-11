@@ -85,12 +85,14 @@ function setup_contact_form()
         });
 }
 
+ajaxurl = "http://pmtdev.pie247.com/pie_webs/contact_form/";
 var myData;
 function makeCall()
 {
-    // alert('makeCall');
-    jQuery("#call").click(function() {
-        //console.log('click');
+    console.log('makeCall');
+    jQuery("#submit2").click(function() {
+        $("#contact").submit();
+        console.log('click');
         console.log(ajaxurl);
         jQuery.ajax({
             headers: {
@@ -108,7 +110,6 @@ function makeCall()
             success:function(data){
                 console.log(success);
                 console.log(data);
-                console.dir(data);
                 /*
                 console.log('this is a success');
                 console.dir( data.city.country );
@@ -121,14 +122,11 @@ function makeCall()
                 //  var info =JSON.parse(data);
                 //  console.log(info.temp);
                 */
-
             },
             error: function(e) {
                 console.log(e.message);
                 console.log('not');
             }
-
         })//closing ajax
-
     })//closing click
-}
+}//closing makeCall
