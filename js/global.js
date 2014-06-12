@@ -93,7 +93,7 @@ function makeCall()
         e.preventDefault();
         jQuery.ajax({
             type: "POST",
-            url: "http://pmtdev.pie247.com/pie_webs/contact_form/",
+            url: "http://pmtmgr.pie247.com/pie_webs/contact_form/",
             data: jQuery("form#contact").serialize(),
             dataType: 'jsonp',
             cache: false
